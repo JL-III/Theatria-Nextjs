@@ -27,7 +27,7 @@ const RankRow = ({ rank, className }) => {
                         <div>
                             <h3>Commands:</h3>
                             <ul>
-                                {Object.entries(rank.commands).map(([key, value]) => (
+                                {Object.entries(rank.commands).map(([key, value]): React.ReactNode => (
                                     <li key={key}>
                                         {key}: {value}
                                     </li>
