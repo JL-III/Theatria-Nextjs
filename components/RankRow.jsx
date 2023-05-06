@@ -50,9 +50,8 @@ const RankRow = ({ rank, className, isExpanded }) => {
             </tr>
             {expanded && (
                 <>
-                    <ExpandableRow title="Commands" items={commands} backgroundColor="#120000" />
-                    <ExpandableRow title="Locks" items={locks} backgroundColor="#120000" />
-                    <ExpandableRow title="Kits" items={kits} backgroundColor="#120000" />
+                    <ExpandableRow title="Commands" items={commands} backgroundColor="#a11225" />
+                    <ExpandableRow title="Kits" items={kits} backgroundColor="#a11225" />
                 </>
             )}
         </>

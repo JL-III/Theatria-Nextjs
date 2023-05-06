@@ -6,10 +6,7 @@
     "cost": "$0",
     "chunks": 400,
     "spawner-mine-chance": "0",
-    "locks": {
-      "default": "20",
-      "chest": "10"
-    },
+    "locks": "10",
     "homes": "2",
     "commands": {
       "/own": "used to claim an item",
@@ -77,10 +74,7 @@
     "cost": "$10,000",
     "chunks": 400,
     "spawner-mine-chance": "5",
-    "locks": {
-      "default": "50",
-      "chest": "25"
-    },
+    "locks": "25",
     "homes": "3",
     "commands": {},
     "kits": {},
@@ -95,11 +89,8 @@
     "cost": "$25,000",
     "chunks": 400,
     "spawner-mine-chance": "10",
-    "locks": {
-      "default": "100",
-      "chest": "50"
-    },
-    "homes": "5",
+    "locks": "50",
+    "homes": "4",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -113,11 +104,8 @@
     "cost": "$50,000",
     "chunks": 400,
     "spawner-mine-chance": "15",
-    "locks": {
-      "default": "200",
-      "chest": "100"
-    },
-    "homes": "10",
+    "locks": "75",
+    "homes": "5",
     "commands": {
       "/enderchest": "access to a virtual enderchest"
     },
@@ -133,11 +121,8 @@
     "cost": "$125,000",
     "chunks": 400,
     "spawner-mine-chance": "20",
-    "locks": {
-      "default": "300",
-      "chest": "150"
-    },
-    "homes": "15",
+    "locks": "100",
+    "homes": "6",
     "commands": {
       "/lands setspawn": "set the spawn of your land",
       "/lands list": "list of your lands",
@@ -157,11 +142,8 @@
     "cost": "$250,000",
     "chunks": 2500,
     "spawner-mine-chance": "25",
-    "locks": {
-      "default": "300",
-      "chest": "150"
-    },
-    "homes": "15",
+    "locks": "125",
+    "homes": "7",
     "commands": {
       "/disposal": "access to an inventory that you can throw things away in"
     },
@@ -177,11 +159,8 @@
     "cost": "$500,000",
     "chunks": 2500,
     "spawner-mine-chance": "30",
-    "locks": {
-      "default": "350",
-      "chest": "175"
-    },
-    "homes": "15",
+    "locks": "150",
+    "homes": "8",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -195,11 +174,8 @@
     "cost": "$750,000",
     "chunks": 2500,
     "spawner-mine-chance": "35",
-    "locks": {
-      "default": "350",
-      "chest": "175"
-    },
-    "homes": "15",
+    "locks": "175",
+    "homes": "9",
     "commands": {
       "/back": "go back to your prev location",
       "/near": "check who is near you",
@@ -223,11 +199,8 @@
     "cost": "$750,000",
     "chunks": 2500,
     "spawner-mine-chance": "40",
-    "locks": {
-      "default": "400",
-      "chest": "200"
-    },
-    "homes": "15",
+    "locks": "200",
+    "homes": "10",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -241,10 +214,7 @@
     "cost": "$750,000",
     "chunks": 2500,
     "spawner-mine-chance": "45",
-    "locks": {
-      "default": "450",
-      "chest": "225"
-    },
+    "locks": "225",
     "homes": "15",
     "commands": {},
     "kits": {},
@@ -259,11 +229,8 @@
     "cost": "$750,000",
     "chunks": 2500,
     "spawner-mine-chance": "50",
-    "locks": {
-      "default": "500",
-      "chest": "250"
-    },
-    "homes": "15",
+    "locks": "250",
+    "homes": "20",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -277,11 +244,8 @@
     "cost": "$2,500,000",
     "chunks": 2500,
     "spawner-mine-chance": "55",
-    "locks": {
-      "default": "550",
-      "chest": "275"
-    },
-    "homes": "15",
+    "locks": "275",
+    "homes": "25",
     "commands": {
       "/fix all": "fix all items in your inventory",
       "/condense": "condense items in your inventory",
@@ -301,11 +265,8 @@
     "cost": "$5,500,000",
     "chunks": 2500,
     "spawner-mine-chance": "60",
-    "locks": {
-      "default": "600",
-      "chest": "300"
-    },
-    "homes": "15",
+    "locks": "300",
+    "homes": "30",
     "commands": {
       "/uncondense": "uncondense items in your inventory",
       "/anvil": "virtual anvil",
@@ -327,11 +288,8 @@
     "cost": "$7,500,000",
     "chunks": 2500,
     "spawner-mine-chance": "65",
-    "locks": {
-      "default": "650",
-      "chest": "325"
-    },
-    "homes": "15",
+    "locks": "400",
+    "homes": "35",
     "commands": {},
     "kits": {},
     "keep-exp": "true",
@@ -345,11 +303,8 @@
     "cost": "$10,000,000",
     "chunks": 2500,
     "spawner-mine-chance": "70",
-    "locks": {
-      "default": "700",
-      "chest": "350"
-    },
-    "homes": "15",
+    "locks": "500",
+    "homes": "40",
     "commands": {},
     "kits": {},
     "keep-exp": "true",
@@ -363,11 +318,8 @@
     "cost": "$15,000,000",
     "chunks": 2500,
     "spawner-mine-chance": "75",
-    "locks": {
-      "default": "750",
-      "chest": "375"
-    },
-    "homes": "15",
+    "locks": "1000",
+    "homes": "50",
     "commands": {
         "/kit example": "50 spawner keys a month"
     },
