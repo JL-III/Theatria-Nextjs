@@ -1,0 +1,26 @@
+/* ranks.module.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.localTh,
+.localTd {
+    padding: 8px;
+    text-align: left;
+    /*border-bottom: 1px solid #878787;*/
+    border: 1px solid #878787;
+}
+
+.localTh {
+    background-color: #636363;
+    font-weight: bold;
+}
+
+.localTrEven .localTd {
+    background-color: #636363;
+}
+
+.localTrHover:hover .localTd {
+    background-color: #a36bbf;
+}
