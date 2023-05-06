@@ -1,0 +1,25 @@
+/* components/Layout.module.css */
+.header {
+    background-color: #222;
+    padding: 1rem;
+    text-align: center;
+}
+
+.serverName {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+}
+
+.footer {
+    background-color: #222;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}

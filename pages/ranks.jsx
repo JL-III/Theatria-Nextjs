@@ -4,11 +4,12 @@ import RankRow from '../components/RankRow';
 import RowHeader from '../components/RowHeader'; // Add this import
 import ranksData from '../data/ranks.json';
 import styles from '../css/ranks.module.css';
+import Layout from "../components/Layout";
 
 
 const RanksPage = () => {
     return (
-        <div>
+        <Layout>
             <Head>
                 <title>Ranks</title>
             </Head>
@@ -23,7 +24,7 @@ const RanksPage = () => {
                     </tbody>
                 </table>
             </main>
-        </div>
+        </Layout>
     );
 };
 
