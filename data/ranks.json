@@ -7,8 +7,8 @@
     "chunks": 400,
     "spawner-mine-chance": "0",
     "locks": {
-      "default": 20,
-      "chest": 10
+      "default": "20",
+      "chest": "10"
     },
     "homes": "2",
     "commands": {
@@ -78,8 +78,8 @@
     "chunks": 400,
     "spawner-mine-chance": "5",
     "locks": {
-      "default": 50,
-      "chest": 25
+      "default": "50",
+      "chest": "25"
     },
     "homes": "3",
     "commands": {},
@@ -96,8 +96,8 @@
     "chunks": 400,
     "spawner-mine-chance": "10",
     "locks": {
-      "default": 100,
-      "chest": 50
+      "default": "100",
+      "chest": "50"
     },
     "homes": "5",
     "commands": {},
@@ -114,8 +114,8 @@
     "chunks": 400,
     "spawner-mine-chance": "15",
     "locks": {
-      "default": 200,
-      "chest": 100
+      "default": "200",
+      "chest": "100"
     },
     "homes": "10",
     "commands": {
@@ -134,8 +134,8 @@
     "chunks": 400,
     "spawner-mine-chance": "20",
     "locks": {
-      "default": 300,
-      "chest": 150
+      "default": "300",
+      "chest": "150"
     },
     "homes": "15",
     "commands": {
@@ -158,8 +158,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "25",
     "locks": {
-      "default": 300,
-      "chest": 150
+      "default": "300",
+      "chest": "150"
     },
     "homes": "15",
     "commands": {
@@ -178,8 +178,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "30",
     "locks": {
-      "default": 350,
-      "chest": 175
+      "default": "350",
+      "chest": "175"
     },
     "homes": "15",
     "commands": {},
@@ -196,8 +196,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "35",
     "locks": {
-      "default": 350,
-      "chest": 175
+      "default": "350",
+      "chest": "175"
     },
     "homes": "15",
     "commands": {
@@ -224,8 +224,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "40",
     "locks": {
-      "default": 400,
-      "chest": 200
+      "default": "400",
+      "chest": "200"
     },
     "homes": "15",
     "commands": {},
@@ -242,8 +242,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "45",
     "locks": {
-      "default": 450,
-      "chest": 225
+      "default": "450",
+      "chest": "225"
     },
     "homes": "15",
     "commands": {},
@@ -260,8 +260,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "50",
     "locks": {
-      "default": 500,
-      "chest": 250
+      "default": "500",
+      "chest": "250"
     },
     "homes": "15",
     "commands": {},
@@ -278,8 +278,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "55",
     "locks": {
-      "default": 550,
-      "chest": 275
+      "default": "550",
+      "chest": "275"
     },
     "homes": "15",
     "commands": {
@@ -302,8 +302,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "60",
     "locks": {
-      "default": 600,
-      "chest": 300
+      "default": "600",
+      "chest": "300"
     },
     "homes": "15",
     "commands": {
@@ -328,8 +328,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "65",
     "locks": {
-      "default": 650,
-      "chest": 325
+      "default": "650",
+      "chest": "325"
     },
     "homes": "15",
     "commands": {},
@@ -346,8 +346,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "70",
     "locks": {
-      "default": 700,
-      "chest": 350
+      "default": "700",
+      "chest": "350"
     },
     "homes": "15",
     "commands": {},
@@ -364,8 +364,8 @@
     "chunks": 2500,
     "spawner-mine-chance": "75",
     "locks": {
-      "default": 750,
-      "chest": 375
+      "default": "750",
+      "chest": "375"
     },
     "homes": "15",
     "commands": {},
