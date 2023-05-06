@@ -6,7 +6,7 @@ import votingWebsitesData from '../data/votingWebsites.json';
 const VotingWebsitesPage = () => {
     return (
         <div>
-            <h1>Voting Websites</h1>
+            <h1>Voting Sites</h1>
             <VotingWebsites websites={votingWebsitesData} />
         </div>
     );
