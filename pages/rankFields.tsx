@@ -1,11 +1,6 @@
 // rankFields.ts
-interface RankField {
-    key: string;
-    label: string;
-    isButton: boolean;
-}
 
-const rankFields: RankField[] = [
+const rankFields = [
     { key: "id", label: "ID", isButton: false },
     { key: "name", label: "Name", isButton: false },
     { key: "cost", label: "Cost", isButton: false },
