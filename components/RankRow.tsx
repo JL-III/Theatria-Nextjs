@@ -23,7 +23,7 @@ const RankRow = ({ rank, className }) => {
             </tr>
             {isExpanded && (
                 <tr>
-                    <td colSpan=11 className={styles.localTd}>
+                    <td colSpan={11} className={styles.localTd}>
                         <div>
                             <h3>Commands:</h3>
                             <ul>
