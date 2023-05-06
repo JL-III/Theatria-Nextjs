@@ -47,7 +47,7 @@ const RankRow = ({ rank, className }) => {
                             <ul>
                                 {Object.entries(rank.kits).map(([key, value]) => (
                                     <li key={key}>
-                                        {key}: {value}
+                                        {key}: {typeof value === 'string' ? value : ''}
                                     </li>
                                 ))}
                             </ul>
