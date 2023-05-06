@@ -28,7 +28,7 @@ const RanksPage = () => {
                     <RowHeader />
                     <tbody>
                     {ranksData.map((rank) => (
-                        <RankRow key={rank.id} rank={rank} isExpanded={isAllExpanded} />
+                        <RankRow key={rank.id} rank={rank} isExpanded={isAllExpanded} isAllExpanded={isAllExpanded} />
                     ))}
                     </tbody>
                 </table>

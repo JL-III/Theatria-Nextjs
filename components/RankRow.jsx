@@ -3,7 +3,7 @@ import styles from '../css/ranks.module.css';
 import rankFields from "../data/rankFields";
 import ExpandableRow from "../components/ExpandableRow";
 
-const RankRow = ({ rank, className, isExpanded }) => {
+const RankRow = ({ rank, className, isExpanded, isAllExpanded }) => {
     const [expanded, setExpanded] = useState(isExpanded);
 
     useEffect(() => {
@@ -50,8 +50,8 @@ const RankRow = ({ rank, className, isExpanded }) => {
             </tr>
             {expanded && (
                 <>
-                    <ExpandableRow title="Commands" items={commands} backgroundColor="#a11225" />
-                    <ExpandableRow title="Kits" items={kits} backgroundColor="#a11225" />
+                    <ExpandableRow title="Commands" items={commands} backgroundColor="#a11225" isAllExpanded={isAllExpanded} />
+                    <ExpandableRow title="Kits" items={kits} backgroundColor="#a11225" isAllExpanded={isAllExpanded} />
                 </>
             )}
         </>

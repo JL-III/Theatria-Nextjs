@@ -8,6 +8,8 @@
     "spawner-mine-chance": "0",
     "locks": "10",
     "homes": "2",
+    "passive-mobs": "false",
+    "hostile-mobs": "false",
     "commands": {
       "/own": "used to claim an item",
       "/disown": "used to unclaim an item",
@@ -76,6 +78,8 @@
     "spawner-mine-chance": "5",
     "locks": "25",
     "homes": "3",
+    "passive-mobs": "true",
+    "hostile-mobs": "false",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -91,6 +95,8 @@
     "spawner-mine-chance": "10",
     "locks": "50",
     "homes": "4",
+    "passive-mobs": "true",
+    "hostile-mobs": "false",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -106,6 +112,8 @@
     "spawner-mine-chance": "15",
     "locks": "75",
     "homes": "5",
+    "passive-mobs": "true",
+    "hostile-mobs": "false",
     "commands": {
       "/enderchest": "access to a virtual enderchest"
     },
@@ -123,6 +131,8 @@
     "spawner-mine-chance": "20",
     "locks": "100",
     "homes": "6",
+    "passive-mobs": "true",
+    "hostile-mobs": "false",
     "commands": {
       "/lands setspawn": "set the spawn of your land",
       "/lands list": "list of your lands",
@@ -144,6 +154,8 @@
     "spawner-mine-chance": "25",
     "locks": "125",
     "homes": "7",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {
       "/disposal": "access to an inventory that you can throw things away in"
     },
@@ -161,6 +173,8 @@
     "spawner-mine-chance": "30",
     "locks": "150",
     "homes": "8",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -176,6 +190,8 @@
     "spawner-mine-chance": "35",
     "locks": "175",
     "homes": "9",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {
       "/back": "go back to your prev location",
       "/near": "check who is near you",
@@ -190,7 +206,7 @@
     "kits": {},
     "keep-exp": "false",
     "keep-inv": "false",
-    "tob": "false"
+    "tob": "true"
   },
   {
     "id": 8,
@@ -201,6 +217,8 @@
     "spawner-mine-chance": "40",
     "locks": "200",
     "homes": "10",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -216,6 +234,8 @@
     "spawner-mine-chance": "45",
     "locks": "225",
     "homes": "15",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -231,6 +251,8 @@
     "spawner-mine-chance": "50",
     "locks": "250",
     "homes": "20",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {},
     "kits": {},
     "keep-exp": "false",
@@ -246,6 +268,8 @@
     "spawner-mine-chance": "55",
     "locks": "275",
     "homes": "25",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {
       "/fix all": "fix all items in your inventory",
       "/condense": "condense items in your inventory",
@@ -267,6 +291,8 @@
     "spawner-mine-chance": "60",
     "locks": "300",
     "homes": "30",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {
       "/uncondense": "uncondense items in your inventory",
       "/anvil": "virtual anvil",
@@ -290,6 +316,8 @@
     "spawner-mine-chance": "65",
     "locks": "400",
     "homes": "35",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {},
     "kits": {},
     "keep-exp": "true",
@@ -305,6 +333,8 @@
     "spawner-mine-chance": "70",
     "locks": "500",
     "homes": "40",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {},
     "kits": {},
     "keep-exp": "true",
@@ -320,6 +350,8 @@
     "spawner-mine-chance": "75",
     "locks": "1000",
     "homes": "50",
+    "passive-mobs": "true",
+    "hostile-mobs": "true",
     "commands": {
         "/kit example": "50 spawner keys a month"
     },
