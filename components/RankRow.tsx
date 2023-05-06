@@ -18,7 +18,6 @@ interface RankRowProps {
         commands: {
             "/own": string;
             // ...
-            "kit spawner25"?: string;
         };
         kits: {
             // ...
