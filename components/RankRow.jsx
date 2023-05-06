@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../pages/ranks.module.css';
+import styles from '../css/ranks.module.css';
 import rankFields from "../data/rankFields";
 
 const RankRow = ({ rank, className }) => {
