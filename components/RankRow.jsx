@@ -1,20 +1,46 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from '../css/ranks.module.css';
 import rankFields from "../data/rankFields";
+import ExpandableRow from "../components/ExpandableRow";
 
-const RankRow = ({ rank, className }) => {
-    const [isExpanded, setIsExpanded] = useState(false);
+const RankRow = ({ rank, className, isExpanded }) => {
+    const [expanded, setExpanded] = useState(isExpanded);
 
+    useEffect(() => {
+        setExpanded(isExpanded);
+    }, [isExpanded]);
 
     const toggleExpanded = () => {
-        setIsExpanded(!isExpanded);
+        setExpanded(!expanded);
     };
+
+    const commands = Object.entries(rank.commands).map(([key, value]) => ({
+        key,
+        label: `${key}: ${typeof value === 'string' ? value : ''}`,
+    }));
+
+    const locks = [
+        { key: 'default', label: `Default: ${rank.locks.default}` },
+        { key: 'chest', label: `Chest: ${rank.locks.chest}` },
+    ];
+
+    const kits = Object.entries(rank.kits).map(([key, value]) => ({
+        key,
+        label: `${key}: ${typeof value === 'string' ? value : ''}`,
+    }));
 
     return (
         <>
             <tr onClick={toggleExpanded} className={`${styles.localTrHover} ${className}`}>
                 {rankFields.map((field) => {
-                    const value = field.isButton ? "Expand" : rank[field.key] === "false" ? "" : rank[field.key] === "true" ? "Yes" : rank[field.key]
+                    const value =
+                        field.isButton
+                            ? 'Expand'
+                            : rank[field.key] === 'false'
+                                ? ''
+                                : rank[field.key] === 'true'
+                                    ? 'Yes'
+                                    : rank[field.key];
                     return (
                         <td key={field.key} className={styles.localTd}>
                             {value}
@@ -22,38 +48,12 @@ const RankRow = ({ rank, className }) => {
                     );
                 })}
             </tr>
-            {isExpanded && (
-                <tr>
-                    <td colSpan={11} className={styles.localTd}>
-                        <div>
-                            <h3>Commands:</h3>
-                            <ul>
-                                {Object.entries(rank.commands).map(([key, value]) => (
-                                    <li key={key}>
-                                        {key}: {typeof value === 'string' ? value : ''}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div>
-                            <h3>Locks:</h3>
-                            <ul>
-                                <li>Default: {rank.locks.default}</li>
-                                <li>Chest: {rank.locks.chest}</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3>Kits:</h3>
-                            <ul>
-                                {Object.entries(rank.kits).map(([key, value]) => (
-                                    <li key={key}>
-                                        {key}: {typeof value === 'string' ? value : ''}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </td>
-                </tr>
+            {expanded && (
+                <>
+                    <ExpandableRow title="Commands" items={commands} backgroundColor="#120000" />
+                    <ExpandableRow title="Locks" items={locks} backgroundColor="#120000" />
+                    <ExpandableRow title="Kits" items={kits} backgroundColor="#120000" />
+                </>
             )}
         </>
     );

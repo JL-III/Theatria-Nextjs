@@ -368,9 +368,11 @@
       "chest": "375"
     },
     "homes": "15",
-    "commands": {},
+    "commands": {
+        "/kit example": "50 spawner keys a month"
+    },
     "kits": {
-      "spawner50": "50 spawner keys a month"
+      "example-kit": "description of kit"
     },
     "keep-exp": "true",
     "keep-inv": "true",

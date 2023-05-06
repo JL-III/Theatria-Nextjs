@@ -1,0 +1,10 @@
+/* components/ExpandableRow.module.css */
+.rowHover:hover .rowTd {
+    background-color: #f7a92a;
+}
+
+.rowTd {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #878787;
+}
