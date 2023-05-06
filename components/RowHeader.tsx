@@ -1,6 +1,6 @@
 // components/RowHeader.tsx
 import styles from '../pages/ranks.module.css';
-import rankFields from '../pages/rankFields';
+import rankFields from '../data/rankFields';
 
 const RowHeader = () => {
     return (

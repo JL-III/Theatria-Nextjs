@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../pages/ranks.module.css';
-import rankFields from "../pages/rankFields";
+import rankFields from "../data/rankFields";
 
 const RankRow = ({ rank, className }) => {
     const [isExpanded, setIsExpanded] = useState(false);
