@@ -28,7 +28,7 @@ const RankRow = ({ rank, className }) => {
                             <h3>Commands:</h3>
                             <ul>
                                 {Object.entries(rank.commands).map(([key, value]) => (
-                                    <li key={key}>
+                                    <li key={parseInt(key)}>
                                         {key}: {value}
                                     </li>
                                 ))}
