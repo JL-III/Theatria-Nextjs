@@ -1,5 +1,15 @@
-function Voting() {
-    return <h1>Voting Page</h1>
-}
+// pages/voting-websites.js
+import React from 'react';
+import VotingWebsites from '../components/VotingWebsites';
+import votingWebsitesData from '../data/votingWebsites.json';
 
-export default Voting
+const VotingWebsitesPage = () => {
+    return (
+        <div>
+            <h1>Voting Websites</h1>
+            <VotingWebsites websites={votingWebsitesData} />
+        </div>
+    );
+};
+
+export default VotingWebsitesPage;
