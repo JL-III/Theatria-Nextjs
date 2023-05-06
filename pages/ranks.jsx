@@ -9,7 +9,7 @@ import Layout from "../components/Layout";
 
 const RanksPage = () => {
     return (
-        <Layout>
+        <div>
             <Head>
                 <title>Ranks</title>
             </Head>
@@ -24,7 +24,7 @@ const RanksPage = () => {
                     </tbody>
                 </table>
             </main>
-        </Layout>
+        </div>
     );
 };
 

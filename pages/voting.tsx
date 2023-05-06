@@ -7,12 +7,10 @@ import styles from '../css/voting.module.css';
 
 const VotingWebsitesPage = () => {
     return (
-        <Layout>
-            <div className={styles.container}>
-                <h1 className={styles.heading}>Voting Websites</h1>
-                <VotingWebsites websites={votingWebsitesData} />
-            </div>
-        </Layout>
+        <div className={styles.container}>
+            <h1 className={styles.heading}>Voting Websites</h1>
+            <VotingWebsites websites={votingWebsitesData} />
+        </div>
     );
 };
 
