@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Voting Site A",
+    "url": "https://www.votingsitea.com"
+  },
+  {
+    "id": 2,
+    "name": "Voting Site B",
+    "url": "https://www.votingsiteb.com"
+  },
+  {
+    "id": 3,
+    "name": "Voting Site C",
+    "url": "https://www.votingsitec.com"
+  }
+]
