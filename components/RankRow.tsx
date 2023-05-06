@@ -2,13 +2,7 @@ import React, { useState } from 'react';
 import styles from '../pages/ranks.module.css';
 import rankFields from "../pages/rankFields";
 
-type RankProps = {
-    key: string;
-    label: string;
-    isButton: boolean;
-}
-
-const RankRow = (rank : {key: string; label: string; isButton: boolean;}, className ) => {
+const RankRow = ({ rank, className }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpanded = () => {
