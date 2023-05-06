@@ -1,3 +1,4 @@
+/* components/Layout.module.css */
 .footer {
     background-color: #222;
     padding: 1rem;
@@ -16,7 +17,6 @@
     flex-grow: 1;
 }
 
-/* components/Layout.module.css */
 .header {
     background-color: #222;
     padding: 1rem;
@@ -28,14 +28,14 @@
 }
 
 .favicon {
-    height: 64px;
-    width: 64px;
+    height: 32px;
+    width: 32px;
     position: absolute;
     left: 1rem;
 }
 
 .serverName {
-    font-size: 3rem;
+    font-size: clamp(1.75rem, 3vw, 3rem);
     color: #ffffff;
     margin: 0;
     width: 100%;
@@ -43,7 +43,7 @@
 }
 
 .tagline {
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 1.5vw, 1.4rem);
     color: #ffffff;
     margin-top: 0.5rem;
     margin-bottom: 0;
@@ -53,22 +53,32 @@
 
 /* Media query for tablet devices */
 @media (min-width: 768px) {
+    .favicon {
+        height: 48px;
+        width: 48px;
+    }
+
     .serverName {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .tagline {
-        font-size: 0.25rem;
+        font-size: 1.2rem;
     }
 }
 
 /* Media query for desktop devices */
 @media (min-width: 1024px) {
+    .favicon {
+        height: 64px;
+        width: 64px;
+    }
+
     .serverName {
         font-size: 3rem;
     }
 
     .tagline {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 }

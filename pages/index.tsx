@@ -1,8 +1,10 @@
-import Layout from '../components/Layout'
+import ServerDescription from '../components/ServerDescription'
 
 function Home() {
     return (
-        <h1>Home Page</h1>
+        <div>
+            <ServerDescription />
+        </div>
     )
 }
 
