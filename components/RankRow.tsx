@@ -2,7 +2,36 @@ import React, { useState } from 'react';
 import styles from '../pages/ranks.module.css';
 import rankFields from "../pages/rankFields";
 
-const RankRow = ({ rank, className }) => {
+interface RankRowProps {
+    rank: {
+        id: number;
+        name: string;
+        displayname: string;
+        cost: string;
+        chunks: number;
+        "spawner-mine-chance": string;
+        locks: {
+            default: string;
+            chest: string;
+        };
+        homes: string;
+        commands: {
+            "/own": string;
+            // ...
+            "kit spawner25"?: string;
+        };
+        kits: {
+            // ...
+        };
+        "keep-exp": string;
+        "keep-inv": string;
+        // ...
+    };
+    className?: string;
+    isEven?: boolean;
+}
+
+const RankRow: React.FC<RankRowProps> = ({ rank, className, isEven }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
 

@@ -5,6 +5,7 @@ import RowHeader from '../components/RowHeader'; // Add this import
 import ranksData from '../data/ranks.json';
 import styles from './ranks.module.css';
 
+
 const RanksPage = () => {
     return (
         <div>
@@ -14,7 +15,7 @@ const RanksPage = () => {
             <main>
                 <h1>Ranks</h1>
                 <table className={styles.table}>
-                    <RowHeader /> {/* Add this line */}
+                    <RowHeader />
                     <tbody>
                     {ranksData.map((rank, index) => (
                         <RankRow key={rank.id} rank={rank} isEven={index % 2 === 0} />
