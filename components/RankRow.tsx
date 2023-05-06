@@ -5,6 +5,7 @@ import rankFields from "../pages/rankFields";
 const RankRow = ({ rank, className }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
+
     const toggleExpanded = () => {
         setIsExpanded(!isExpanded);
     };
@@ -27,9 +28,9 @@ const RankRow = ({ rank, className }) => {
                         <div>
                             <h3>Commands:</h3>
                             <ul>
-                                {Object.entries(rank.commands).map(([key, value]): React.ReactNode => (
+                                {Object.entries(rank.commands).map(([key, value]) => (
                                     <li key={key}>
-                                        {key}: {value}
+                                        {key}: {typeof value === 'string' ? value : ''}
                                     </li>
                                 ))}
                             </ul>
