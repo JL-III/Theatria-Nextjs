@@ -86,13 +86,19 @@ body {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+  rgb(var(--background-start-rgb));
+  background: url('../public/backdrop2.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a {
@@ -104,4 +110,21 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffcd7c; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f7a92a;
+  ; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9d00; 
 }
