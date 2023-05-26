@@ -1,6 +1,6 @@
 // components/ExpandableRow.js
 import { useState, useEffect } from 'react';
-import styles from '../css/expandablerow.module.css';
+import styles from '../css/ranks.module.css';
 
 const ExpandableRow = ({ title, items, backgroundColor, isAllExpanded }) => {
     const [isExpanded, setIsExpanded] = useState(false);

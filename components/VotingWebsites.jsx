@@ -1,6 +1,8 @@
 // components/VotingWebsites.js
 import React from 'react';
-import styles from '../css/voting.module.css';
+import styles from '../css/layout.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 const VotingWebsites = ({ websites }) => {
     return (
@@ -13,7 +15,7 @@ const VotingWebsites = ({ websites }) => {
                         rel="noopener noreferrer"
                         className={styles.link}
                     >
-                        {website.name}
+                        {website.name} <FontAwesomeIcon icon={faExternalLinkAlt} />
                     </a>
                 </li>
             ))}
