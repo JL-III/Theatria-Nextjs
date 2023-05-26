@@ -1,18 +1,26 @@
-/* components/Navbar.module.css */
 .nav {
     background-color: #a81111;
     padding: 0.5rem;
 }
+
 
 .ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
+    overflow-x: auto; /* Allows horizontal scrolling when content overflows */
+    white-space: nowrap; /* Prevents items from wrapping to the next line */
+
+}
+
+.hideScrollbar::-webkit-scrollbar {
+    display: none;
 }
 
 .li {
     margin-right: 1rem;
+    display: inline-block; /* Allows items to stay in a single line */
 }
 
 .a {
@@ -23,4 +31,15 @@
 
 .a:hover {
     text-decoration: underline;
+}
+
+/* Media Query for devices with max-width of 600px (typically smartphones) */
+@media only screen and (max-width: 600px) {
+    .ul {
+        overflow-x: scroll; /* Allows horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
+
+        /* Hide scrollbar for Firefox */
+        scrollbar-width: none;
+    }
 }

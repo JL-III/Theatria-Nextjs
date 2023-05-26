@@ -8,7 +8,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     return (
         <nav className={styles.nav}>
-            <ul className={styles.ul}>
+            <ul className={`${styles.ul} hideScrollbar`}>
                 <li className={styles.li}>
                     <Link href="/" passHref>
                         <span className={styles.a}>Home</span>

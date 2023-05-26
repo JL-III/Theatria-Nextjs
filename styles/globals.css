@@ -111,3 +111,20 @@ a {
     color-scheme: dark;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffcd7c; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f7a92a;
+  ; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9d00; 
+}
