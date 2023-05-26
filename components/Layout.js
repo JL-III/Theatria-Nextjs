@@ -1,6 +1,7 @@
 // components/Layout.js
 import React from 'react';
 import Navbar from './Navbar';
+import Image from 'next/image';
 import styles from '../css/layout.module.css';
 
 const Layout = ({ children }) => {
