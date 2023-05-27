@@ -88,13 +88,6 @@
     padding: 0;
 }
 
-.listItem {
-    font-size: 1.2rem;
-    text-align: center;
-    color: #00ff73;
-    margin-bottom: 0.5rem;
-}
-
 /* css/serverdescription.module.css */
 .box {
     max-width: 800px; /* Limit the width if necessary */
@@ -121,4 +114,30 @@
 
 .box ul {
     color: #000000; /* Medium-dark text color for readability */
+}
+
+.listItem {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #00ff73;
+    margin-bottom: 0.5rem;
+}
+
+.listItem a:link {
+    font-size: 1.2rem;
+    text-align: center;
+    color: blue;
+    margin-bottom: 0.5rem;
+}
+
+.listItem a:visited {
+    color: purple;
+}
+
+.listItem a:hover {
+    color: red;
+}
+
+.listItem a:active {
+    color: green;
 }
