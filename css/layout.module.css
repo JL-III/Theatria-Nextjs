@@ -91,7 +91,9 @@
 /* css/serverdescription.module.css */
 .box {
     max-width: 800px; /* Limit the width if necessary */
+    width: fit-content;
     margin: 0 auto; /* Center the container */
+    margin-top: 20px;
     padding: 20px;
     background-color: rgba(36, 36, 36, 0.8); /* Semi-transparent white */
     border-radius: 15px; /* Rounded corners */
