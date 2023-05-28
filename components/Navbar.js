@@ -7,7 +7,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     return (
         <nav className=''>
-            <ul className='flex justify-start lg:justify-center bg-purple text-light-purple overflow-x-hidden hover:overflow-x-auto whitespace-nowrap px-2'>
+            <ul className='flex flex-wrap justify-start lg:justify-center bg-purple text-light-purple overflow-x-hidden hover:overflow-x-auto whitespace-nowrap px-2'>
                 <li className='px-2'>
                     <Link href="/" passHref>
                         <span>Home</span>
