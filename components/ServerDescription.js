@@ -4,7 +4,7 @@ import Box from './Box';
 const ServerDescription = () => {
     return (
         <Box>
-            <h1 className='text-2xl mb-4 text-light-purple'>🔮 About Theatria 🔮</h1>
+            <h1 className='text-2xl mb-4 text-white'>🔮 About Theatria 🔮</h1>
             <div>
                 <p>
                     Step into the world of <b>Theatria</b>, a Minecraft server like no other. Here, you won&apos;t just play the game - you&apos;ll live an <i>unforgettable adventure</i>. Our established, friendly community is always welcoming new members, making Theatria the perfect place to forge new friendships as you delve into the depths of Minecraft&apos;s expansive universe.

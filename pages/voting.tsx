@@ -6,7 +6,7 @@ import votingWebsitesData from '../data/votingWebsites.json';
 const VotingWebsitesPage = () => {
     return (
         <Box>
-            <h1 className='text-2xl mb-4 text-light-purple'>Voting Websites</h1>
+            <h1 className='text-2xl mb-4 text-white'>Voting Websites</h1>
             <div>
                 <VotingWebsites websites={votingWebsitesData} />
             </div>

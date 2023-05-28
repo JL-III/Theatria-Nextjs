@@ -25,6 +25,7 @@ module.exports = {
       'purple': '#892CDC',
       'dark-purple': '#52057B',
       'black': '#000000',
+      'white': '#ffffff', 
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -37,6 +38,15 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      keyframes: {
+        zoom: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.02)' },
+        },
+      },
+      animation: {
+        zoom: 'zoom 10s infinite',
       }
     }
   },
