@@ -1,38 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Theatria's Website
 
-## Getting Started
+## Vision Statement
 
-First, run the development server:
+_Theatria's website aims to serve as an engaging and interactive extension of the Theatria Minecraft server experience. We strive to create a central hub for our players where they can interact with their in-game profiles, manage their in-game finances, and stay connected with the server community._
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Core Goals
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Player-Centric Experience**: We prioritize security and player privacy, enabling players to confidently link their in-game profiles with the website. Users should be able to log in securely, view their in-game bank balance, manage their profile details, and monitor their in-game progress.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+2. **Informative and Supportive Content**: We aim to host a range of content to support both new and experienced players. From latest server updates to helpful guides and tutorials, we want to ensure all our players feel informed and well-supported.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+3. **Respect for Good Development Practices**: We aim to write code that's easy to understand and maintain. This includes following widely accepted coding conventions and continuously reviewing and refining our codebase. We're committed to an iterative development process, based on user feedback and evolving needs.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Content Management System
+- Player profiles
+- Admin Profiles
+- Theatria Minecraft Server Integrations
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Nextjs
+- Serverless
+- PostgreSQL

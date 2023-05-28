@@ -1,6 +1,5 @@
 // components/ExpandableRow.js
 import { useState, useEffect } from 'react';
-import styles from '../css/ranks.module.css';
 
 const ExpandableRow = ({ title, items, backgroundColor, isAllExpanded }) => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -19,14 +18,14 @@ const ExpandableRow = ({ title, items, backgroundColor, isAllExpanded }) => {
 
     return (
         <>
-            <tr onClick={toggleExpanded} className={`${styles.rowHover}`} style={{ backgroundColor }}>
-                <td colSpan={11} className={styles.rowTd}>
+            <tr onClick={toggleExpanded} className='' style={{ backgroundColor }}>
+                <td colSpan={12} className=''>
                     <strong>{title}</strong>
                 </td>
             </tr>
             {isExpanded && (
                 <tr>
-                    <td colSpan={11} className={styles.rowTd} style={{ backgroundColor }}>
+                    <td colSpan={12} className='' style={{ backgroundColor }}>
                         <ul>
                             {items.map((item) => (
                                 <li key={item.key}>{item.label}</li>
