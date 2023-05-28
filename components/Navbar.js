@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Sidebar from './Sidebar';
+import Sidebar from './SideBar';
 
 const Navbar = () => {
     return (
