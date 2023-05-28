@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import styles from '../css/ranks.module.css';
 import rankFields from "../data/rankFields";
 import ExpandableRow from "../components/ExpandableRow";
 
@@ -31,7 +30,7 @@ const RankRow = ({ rank, className, isExpanded, isAllExpanded }) => {
 
     return (
         <>
-            <tr onClick={toggleExpanded} className={`${styles.localTrHover} ${className}`}>
+            <tr onClick={toggleExpanded} className='w-32 lg:w-auto flex-row justify-left lg:justify-center border-2 border-x-purple whitespace-nowrap px-2'>
                 {rankFields.map((field) => {
                     const value =
                         field.isButton
@@ -42,7 +41,7 @@ const RankRow = ({ rank, className, isExpanded, isAllExpanded }) => {
                                     ? 'Yes'
                                     : rank[field.key];
                     return (
-                        <td key={field.key} className={styles.localTd}>
+                        <td key={field.key} className=''>
                             {value}
                         </td>
                     );
