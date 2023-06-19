@@ -192,7 +192,7 @@
     "id": 7,
     "name": "Hero",
     "displayname": "&4[&6*Hero*&4]",
-    "cost": "$750,000",
+    "cost": "$500,000",
     "number-of-lands": 11,
     "chunks": 2000,
     "spawner-mine-chance": "35",
