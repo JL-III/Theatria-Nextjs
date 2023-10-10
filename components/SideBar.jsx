@@ -67,7 +67,7 @@ const Sidebar = () => {
                     </a>
                 </li>
                 <li className='box-border p-4 border-4'>
-                    <a href="https://store.playtheatria.com/" target="_blank">
+                    <a href="https://theatrian-market.tebex.io/" target="_blank">
                         <span>Features <FontAwesomeIcon icon={faExternalLinkAlt} /></span>
                         <p>Support us by donating!</p>
                     </a>
