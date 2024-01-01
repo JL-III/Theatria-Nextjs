@@ -1,32 +1,53 @@
 [
   {
     "id": 1,
+    "name": "Planet Minecraft",
+    "url": "https://www.planetminecraft.com/server/theatria/vote/"
+  },
+  {
+    "id": 2,
+    "name": "Minecraft Best Servers",
+    "url": "https://minecraftbestservers.com/server-theatria.1916/vote"
+  },
+  {
+    "id": 3,
     "name": "Top Minecraft Servers",
     "url": "https://topminecraftservers.org/vote/18343"
   },
   {
-    "id": 2,
+    "id": 4,
+    "name": "MinecraftBuzz",
+    "url": "https://minecraft.buzz/vote/2653"
+  },
+  {
+    "id": 5,
     "name": "Minecraft Servers",
     "url": "https://minecraftservers.org/vote/616834"
   },
   {
-    "id": 3,
+    "id": 6,
+    "name": "MinecraftListOrg",
+    "url": "https://minecraftlist.org/vote/32599"
+  },
+
+  {
+    "id": 7,
     "name": "Minecraft Server List",
     "url": "https://minecraft-server-list.com/server/478026/vote/"
   },
   {
-    "id": 4,
+    "id": 8,
     "name": "Minecraft MP",
     "url": "https://minecraft-mp.com/server/284521/vote/"
   },
   {
-    "id": 5,
+    "id": 9,
     "name": "TopG",
     "url": "https://topg.org/minecraft-servers/server-630138"
   },
   {
-    "id": 6,
-    "name": "Planet Minecraft",
-    "url": "https://www.planetminecraft.com/server/theatria/vote/"
+    "id": 10,
+    "name": "CurseForge",
+    "url": "https://www.curseforge.com/servers/minecraft/game/theatria/vote"
   }
 ]
