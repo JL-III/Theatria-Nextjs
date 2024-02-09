@@ -17,7 +17,9 @@ const Layout = ({ children }) => {
             <Navbar/>
             <main className='flex items-center justify-center m-6'>{children}</main>
             <footer className='bg-black text-white fixed bottom-0 left-0 right-0 text-center mt-6'>
-                &copy; {new Date().getFullYear()} Theatria. All rights reserved.
+                <div>&copy; {new Date().getFullYear()} Theatria. All rights reserved.</div>
+                <div>NOT AN OFFICIAL MINECRAFT PRODUCT/SERVICE</div>
+                <div>NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT</div>
             </footer>
         </div>
     );
