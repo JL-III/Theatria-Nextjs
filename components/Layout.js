@@ -20,6 +20,7 @@ const Layout = ({ children }) => {
                 <div>&copy; {new Date().getFullYear()} Theatria. All rights reserved.</div>
                 <div>NOT AN OFFICIAL MINECRAFT PRODUCT/SERVICE</div>
                 <div>NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT</div>
+                <div>Contact us at playtheatria@outlook.com</div>
             </footer>
         </div>
     );
